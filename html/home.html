@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Webpage</title>
+		<link rel="icon" href="../img/icon.png">
+		<link rel="stylesheet" href="../css/home-style.css">
+	</head>
+
+	<body>	
+		<div id="home"></div>
+		<div class="navbar animate-left">
+			<div id="container">
+				<input type="checkbox" class="checkbox" id="checkbox" onclick="changeColor()">
+				<label for="checkbox" class="label">
+					<div class="ball"></div>
+				</label>
+			</div>
+			<a href="#contact">Contacts</a>
+			<a href="#about">About</a>
+			<a href="#home">Home</a>
+		</div>
+		<div class="home-menu">
+			<p>
+				<a href="#home">
+					<span class="border animate-bottom">Welcome to my website!</span>
+				</a>
+				<br><span class="name animate-bottom">Evan Pradanika</span>
+				<br><span class="job animate-bottom">Informatics Student</span>
+			</p>
+			<a href="../img/avatar.png">
+				<img class="animate-bottom" src="../img/avatar.png" alt="">
+			</a>
+		</div>
+		<div id="about"></div>
+		<div class="about-menu">
+			<a href="#about">
+				<h3 class="animate-bottom">About Me</h3>
+			</a>
+			<div class="column animate-bottom">
+				<a href="biography.html" class="column1">
+					<img id="about1" src="../img/about-biography.png" alt="">
+					<br><span class="about">Biography</span>
+				</a>
+				<a href="#about" class="column2">
+					<img id="about2" src="../img/about-education.png" alt="">
+					<br><span class="about">Coming soon!</span>
+				</a>
+				<a href="#about" class="column3">
+					<img id="about3" src="../img/about-cv.png" alt="">
+					<br><span class="about">Coming soon!</span>
+				</a>
+			</div>
+		</div>
+		<div id="contact"></div>
+		<div class="contact-menu">
+			<br>
+			<a href="#contact">
+				<h4 class="animate-bottom">Contact me at:</h4>
+			</a>
+			<p>
+				<img id="contact1" class="animate-bottom" src="../img/contact-line.png" alt="">
+				<span class="contactText animate-bottom">evanpradanika</span>
+				<br><img id="contact2" class="animate-bottom" src="../img/contact-phone.png" alt="">
+				<span class="contactText animate-bottom">08111896000</span>
+				<br><img id="contact3" class="animate-bottom" src="../img/contact-mail.png" alt="">
+				<span class="contactText animate-bottom">evan.hartoni@gmail.com</span>
+			</p>
+			<footer>
+				Created by Evan Pradanika
+			</footer>
+		</div>
+		<script src="../js/home-script.js"></script>
+	</body>
+</html>

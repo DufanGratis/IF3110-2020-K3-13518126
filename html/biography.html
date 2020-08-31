@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Webpage</title>
+		<link rel="icon" href="../img/icon.png">
+		<link rel="stylesheet" href="../css/biography-style.css">
+	</head>
+
+	<body>	
+		<div id="biography"></div>
+		<div class="navbar animate-left">
+			<div id="container">
+				<input type="checkbox" class="checkbox" id="checkbox" onclick="changeColor()">
+				<label for="checkbox" class="label">
+					<div class="ball"></div>
+				</label>
+			</div>
+			<a href="#hobby">Hobby</a>
+			<a href="#biography">Biography</a>
+		</div>
+		<div class="navbar-home animate-right">
+			<a href="home.html">Home</a>
+		</div>
+		<div class="biography-menu">
+			<p>
+				<a href="#biography">
+					<span class="border animate-bottom">Biography</span>
+				</a>
+				<br><span class="description animate-bottom">Hello! My name is Evan Pradanika. I am currently a third-year Informatics student at Institut Teknologi Bandung. I am 19 years old and I enjoy playing games and sports more than anything else. May you have a good day!</span>
+			</p>
+			<a href="../img/avatar.png">
+				<img class="animate-bottom" src="../img/avatar.png" alt="">
+			</a>
+		</div>
+		<div id="hobby"></div>
+		<div class="hobby-menu">
+			<a href="#hobby">
+				<h3 class="animate-bottom">My Hobbies</h3>
+			</a>
+			<div class="column animate-bottom">
+				<a class="column1">
+					<img id="hobby1" src="../img/hobby-game.png" alt="">
+					<br><span class="hobby">Gaming</span>
+				</a>
+				<a class="column2">
+					<img id="hobby2" src="../img/hobby-sport.png" alt="">
+					<br><span class="hobby">Sports</span>
+				</a>
+				<a class="column3">
+					<img id="hobby3" src="../img/hobby-music.png" alt="">
+					<br><span class="hobby">Music</span>
+				</a>
+			</div>
+			<footer>
+				Created by Evan Pradanika
+			</footer>
+		</div>
+		<script src="../js/biography-script.js"></script>
+	</body>
+</html>
